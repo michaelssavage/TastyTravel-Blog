@@ -1,0 +1,69 @@
+body {
+	padding-top: 80px; /* accouting for navbar height*/
+
+}
+
+.overflow-class {
+	overflow-x:hidden;
+	position: relative;
+}
+
+/*--------top bar - component 1 -----------*/
+.navbar {
+	min-height: 80px;
+	padding:0;
+
+
+}
+
+.dcu-logo{
+}
+
+.header-title{
+	font-weight: bold; font-family: Roboto, sans-serif; color: white; font-size: 26px;
+	padding-left: 2vw;
+}
+
+/*not the top part */ 
+
+.main {
+}
+
+/*------------sidebar-------*/
+
+.sidebar {
+	
+	border-bottom:solid;
+	background-color: #F8F8F8;
+}
+
+.searchy {
+	margin: auto;
+	margin-top:20px;
+	padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {      /*mobile first design, media query makes it look nice on desktop too */
+  .sidebar {
+    height:100vh;      
+    border-right: solid;          
+  }
+}
+
+/*--------------sub header bar -------------*/
+
+.subHeaderBar{
+	padding-top: 10px;
+	background-color: #F8F8F8;
+	border-bottom: solid;
+}
+
+/*----------timetable area---------*/
+.table {
+  background-color: #eee;
+  height: 100%;
+  margin-bottom: 0;
+}
+.table-responsive {
+  height: 80%;
+}
