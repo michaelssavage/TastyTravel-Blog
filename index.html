@@ -35,6 +35,32 @@
 
       <!-- Post Content Column -->
       <div class="col-lg-8">
+<!-- 14 -->
+        <h1 class="mt-4">Parse, Get and Show</h1>
+        <hr>
+        <p class ="date">Thursday February 27, 2020</p>
+        <hr>
+        <p>Today was the most productive day out of any other. Confidence was through the roof with the amount of changes we implemented.</p>
+        
+        <ol>
+
+          <li>We first started today by adding error checking to ensure all search fields are filled out before executing the search process.</li>
+          <li>We then implemented a JSON response parser to work with the google maps places API to give us meeting points.</li>
+          <li>A dropdown menu was also added to the search screen, this allows the user to specify what sort of meeting place they wanted. </li>
+          <li>Supplying the midpoint we calculated on Wednesday to the API returned to us places of interest 
+          and the option selected from the dropdown filtered the result.</li>
+          <li>Next, to display these results to the user we implemented a recycler view instead of 3 fixed text views. 
+            This allowed us to show the points of interest in a scrollable manner using a card view. </li>
+          <li>Next to these results on the card we added a favourites button to store a favourite place the user can access again.</li>
+
+        </ol>
+        <img style="padding:1em" src ="images/comparison.jfif" alt="comparison of work done" width = "600">
+        <p>Our next course of action will be implementing the logic behind the favourite button and storing these locations in firebase. 
+          Furthermore, we want to be able to a click a recycler view item and show this location on the map using a pointer. At the minute
+          we need to discuss whether we want the isochrones to be drawn on the map or not.</p>
+
+        <p>With all these changes in mind, we think we can see the finish line. Fingers crossed.</p>
+        <hr>
 
 <!-- 13 -->
         <h1 class="mt-4">Algorithmic Development</h1>
